@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "chat server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanez/node-school-aug-2017.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "chat",
+    "socket.io"
+  ],
+  "author": "Rodrigo Yanez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanez/node-school-aug-2017/issues"
+  },
+  "homepage": "https://github.com/ryanez/node-school-aug-2017#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
