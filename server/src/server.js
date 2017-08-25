@@ -14,21 +14,21 @@ app.get('/', (req, res) => res.send([
     messages.map(data => `<li>${data.value}</li>`).join(''),
     '</ul>',
     '</body></html>'
-  ]
-  .join('')));
+  ].join('')));
+
 http.listen(port, () => console.log(`listening on *:${port}`));
 
 io.on('connection', socket => {
-  socket.emit('messages', messages);
+    socket.emit('messages', messages);
 
-  socket.on('message', data => {
-    console.log(`message: ${data.value}`);
-    socket.broadcast.emit('message', data);
+    socket.on('message', data => {
+        console.log(`message: ${data.value}`);
+        socket.broadcast.emit('message', data);
 
-    if (messages.length >= MAX_BUFFER_SIZE) {
-      messages.splice(0, 1);
-    }
+        if (messages.length >= MAX_BUFFER_SIZE) {
+          messages.splice(0, 1);
+        }
 
-    messages.push(data);
-  })
+        messages.push(data);
+    })
 });
