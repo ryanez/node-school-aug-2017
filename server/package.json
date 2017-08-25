@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "chat server",
-  "main": "src/server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
