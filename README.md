@@ -5,6 +5,6 @@ This folder contains the support material that will be used by instructor and at
 ### UI
 This is the final product which is mean to be the outcome result of the workshop, this folder will be left on a different branch (not merged with master) with the purpose that each attendee must write it during the workshop. [Get started](workshop/README.md)!
 ### Server
-This small but handy web server implemented with [express](expressjs.com) and [socket.io](socket.io) is written for demostration and testing purposes, in the last chapter of the workshop the attendant will need to run it in order to test the remote data access.
+This small but handy web server implemented with [express](https://expressjs.com) and [socket.io](https://socket.io) is written for demostration and testing purposes, in the last chapter of the workshop the attendant will need to run it in order to test the remote data access.
 
 **Note**: the ugly `package.json` on the root of this repository is there because the `/server` app is deployed on [heroku](https://node-school-aug-2017.herokuapp.com) and we need it to tell heroku how to install and run our server (because it's not on the root of the repo).
