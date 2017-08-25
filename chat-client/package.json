@@ -22,11 +22,7 @@
     "url": "https://github.com/ryanez/node-school-aug-2017/issues"
   },
   "homepage": "https://github.com/ryanez/node-school-aug-2017#readme",
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-bootstrap": "^0.31.2",
-    "react-dom": "^15.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
